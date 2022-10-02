@@ -22,19 +22,19 @@ $ dotnet test
 ```
 Example:
 ```
-Janis-MBP:dotnet-json-demo-test janijegoroff$ dotnet test
+Janis-MBP:dotnet-json-test janijegoroff$ dotnet test
   Determining projects to restore...
-  All projects are up-to-date for restore.
-  dotnet-json-demo-test -> /Users/janijegoroff/projects/dotnet-json-demo-test/bin/Debug/net6.0/dotnet-json-demo-test.dll
-Test run for /Users/janijegoroff/projects/dotnet-json-demo-test/bin/Debug/net6.0/dotnet-json-demo-test.dll (.NETCoreApp,Version=v6.0)
+  Restored /Users/janijegoroff/projects/dotnet-json-test/dotnet-json-test.csproj (in 414 ms).
+  dotnet-json-test -> /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll
+Test run for /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll (.NETCoreApp,Version=v6.0)
 Microsoft (R) Test Execution Command Line Tool Version 17.3.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
-Passed!  - Failed:     0, Passed:   121, Skipped:     0, Total:   121, Duration: 216 ms - /Users/janijegoroff/projects/dotnet-json-demo-test/bin/Debug/net6.0/dotnet-json-demo-test.dll (net6.0)
-Janis-MBP:dotnet-json-demo-test janijegoroff$
+Passed!  - Failed:     0, Passed:   121, Skipped:     0, Total:   121, Duration: 245 ms - /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll (net6.0)
+Janis-MBP:dotnet-json-test janijegoroff$
 ```
 
 ### Future improvement ideas
