@@ -6,13 +6,13 @@ Simple C# integration test demo using NUnit framework
 
 ```
 macOS Monterey
-12.6.1
+12.6.2
 ```
 ```
 dotnet --info
-.NET SDK (reflecting any global.json):
- Version:   6.0.400
- Commit:    7771abd614
+.NET SDK:
+ Version:   7.0.100
+ Commit:    e12b7af219
 ```
 
 ### Run NUnit tests
@@ -24,17 +24,16 @@ Example:
 ```
 Janis-MBP:dotnet-json-test janijegoroff$ dotnet test
   Determining projects to restore...
-  Restored /Users/janijegoroff/projects/dotnet-json-test/dotnet-json-test.csproj (in 414 ms).
-  dotnet-json-test -> /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll
-Test run for /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll (.NETCoreApp,Version=v6.0)
-Microsoft (R) Test Execution Command Line Tool Version 17.3.0 (x64)
+  All projects are up-to-date for restore.
+  dotnet-json-test -> /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net7.0/dotnet-json-test.dll
+Test run for /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net7.0/dotnet-json-test.dll (.NETCoreApp,Version=v7.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.4.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
-Passed!  - Failed:     0, Passed:   121, Skipped:     0, Total:   121, Duration: 245 ms - /Users/janijegoroff/projects/dotnet-json-test/bin/Debug/net6.0/dotnet-json-test.dll (net6.0)
-Janis-MBP:dotnet-json-test janijegoroff$
+Passed!  - Failed:     0, Passed:   121, Skipped:     0, Total:   121, Duration: 264 ms - dotnet-json-test.dll (net7.0)
 ```
 
 ### Future improvement ideas
